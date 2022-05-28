@@ -1,0 +1,43 @@
+.icon {
+    width: 1rem;
+    cursor: pointer;
+}
+
+.icon.done,
+.btn.logout,
+.fname,
+#signInButton {
+    display: none;
+}
+
+span.done {
+    text-decoration: line-through;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.flex-container,
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    color: red;
+}
+
+.alert {
+    position: absolute;
+}
